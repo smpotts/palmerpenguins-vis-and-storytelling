@@ -1,6 +1,6 @@
-# Analyzing and Visualizing Penguin Data with ggplot
+# Analyzing and Visualizing Penguin Data with ggplot2
 ### Summary
-In this notebook, I leverage the data analysis and visualization techniques using `ggplot`, I explore and uncover insights from the palmerpenguins dataset through compelling visualizations.
+In this notebook, I leverage the data analysis and visualization techniques using `ggplot2`, I explore and uncover insights from the palmerpenguins dataset through compelling visualizations.
 
 ### Background
 The palmerpenguins dataset is a collection of data about penguins from the Palmer Archipelago in Antarctica. It was created by researchers from the Palmer Station, Antarctica, which is part of a long-term ecological research project. The dataset contains measurements on three species of penguins: Adélie, Chinstrap, and Gentoo. It includes variables such as species, island location, bill length, bill depth, flipper length, body mass, and sex.
@@ -20,23 +20,26 @@ Details how missing values and inconsistent data were handled to prepare the dat
 *Visualization of missing data patterns before cleaning.*
 ![Missing Values](figures/missing_values_by_variable.png)
 
-### Exploratory Analysis
-Provides initial visual and statistical insights into the distributions and relationships within the data. The distribution of measurements were examined to understand variability across species.
-
-*Visualization showing how key physical characteristics differ across each penguin species.*
-![Species Distro Boxplot](figures/species_distribution_boxplot.png)
-
 ### Temporal and Geographic Distribution
 Examines how penguin species vary by island and year, highlighting spatial and temporal trends.
 
 *Visualization showing penguin species across each island for all three years observed.*
 ![Species by Island Year](figures/species_by_island_year_barplot.png)
 
+### Exploratory Analysis
+Provides initial visual and statistical insights into the distributions and relationships within the data. The distribution of measurements were examined to understand variability across species.
+
+*Visualization showing how key physical characteristics differ across each penguin species.*
+![Species Distro Boxplot](figures/species_distribution_boxplot.png)
+
 ### Correlations
 Identifies and visualizes relationships between key numerical features such as body mass and flipper length.
 
 *Heatmap showing correlations among numerical variables.*
 ![Correlation Matrix](figures/correlation_matrix.png)
+
+*Visualization showing the strong positive relationship between body mass and flipper length.*
+![Body Mass v Flipper](figures/body_mass_by_flipper_length.png)
 
 ### Summary of Findings
 Summarizes the most important insights discovered throughout the analysis, with a focus on species and measurement differences.
